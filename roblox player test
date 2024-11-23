@@ -1,0 +1,18 @@
+#!/bin/sh
+
+    clear
+echo "Roblox player luancher"
+       
+       echo  "Checking client v2 website"
+    local robloxVersionInfo=$(curl -s "https://clientsettingscdn.roblox.com/v2/client-version/MacPlayer")
+    
+clear
+echo "Opening Roblox"
+
+open /Applications/Roblox.app
+
+clear
+
+
+echo "done"
+ echo "thank for testing"
